@@ -1,6 +1,6 @@
 # Project Name
 
-Netflix-copy 
+Netflix_copy 
 
 ## Description
 
@@ -25,8 +25,8 @@ This project is a web application that resembles Netflix, providing users with d
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/netflix-copy-website.git`
-2. Navigate to the project directory: `cd netflix-copy-website`
+1. Clone the repository: `git clone https://github.com/your-username/netflix_copy-website.git`
+2. Navigate to the project directory: `cd netflix_copy-website`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
