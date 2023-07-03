@@ -10,13 +10,16 @@ import TopRated from './TopRated.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Container from 'react-bootstrap/Container';
+// import Movies from "./components/movies";
+// import Search from "./components/search";
 
 
 //import logo from './logo.jpeg';
 
 
-export default function ExampleComponent() { 
+export default function Main() { 
   const [data, setData] = useState(null);
+  // const [movies, setMovies] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -38,7 +41,7 @@ export default function ExampleComponent() {
   return (
   
   
-    <Container style={{ backgroundColor: ""}}>
+    <Container style={{ backgroundColor: "black"}}>
     <h1 style={{color: 'white'}}>
         
       </h1>
@@ -51,6 +54,8 @@ export default function ExampleComponent() {
         <Route path='/Latest' element= {<Latest />} />
         <Route path='/TopRated' element= {<TopRated />} />
         </Routes>
+        {/* <Search onSearch={setMovies} />
+        <Movies movies={movies} onMovies={setMovies}/> */}
       </HashRouter>
         
       
