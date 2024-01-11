@@ -10,20 +10,21 @@ function Home() {
     minHeight: "100vh",
     display: "flex",
     justifyContent: "center",
-    alignItems: "flex-end", 
+    alignItems: "flex-end",
   };
 
   const textStyle = {
-    fontSize: "2em", 
-    color: "#fff", 
+    fontSize: "2em",
+    color: "#fff",
     textAlign: "center",
     margin: "200px",
+    backgroundColor: "black",
   };
 
   return (
     <div style={backgroundStyle}>
-      <div className="home-content" style={textStyle}>
-        <p>
+      <div className="home-content">
+        <p style={textStyle}>
           Welcome to NC your ultimate destination for the latest and greatest in
           movies and TV shows! Immerse yourself in a world of entertainment
           where you can discover the hottest releases, catch up on your favorite
