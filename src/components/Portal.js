@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import PopUp from './PopUp.js'
 import './popupmodal.css'
 
-export default function Portal() {
+export default function Portal({category}) {
   // const [showModal, setShowModal] = useState(false);
   const [movie, setMovie] = useState(null);
   var imgUrl = 'https://image.tmdb.org/t/p/w780';
@@ -35,7 +35,7 @@ export default function Portal() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get('https://api.themoviedb.org/3/movie/upcoming?api_key=647298ce680820a1028160f696426edd&language=en-US&page=1');
+        const response = await axios.get(`https://api.themoviedb.org/3/movie/${category}?api_key=647298ce680820a1028160f696426edd&language=en-US&page=1`);
         setMovie(response.data);
         console.log(response.data);
         response.data.results.forEach((movie) => {
@@ -46,7 +46,7 @@ export default function Portal() {
       }
     }
     fetchData();
-  }, []);
+  }, [category]);
 
   
 
