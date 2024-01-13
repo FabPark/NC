@@ -29,9 +29,9 @@ const PopUp = props => {
       
                 const response = await axios.get(`https://api.themoviedb.org/3/movie/${props.gogo}?api_key=647298ce680820a1028160f696426edd`);
                 setMovieData(response.data);
-                const reviewsResponse = await fetch(`https://api.themoviedb.org/3/movie/${props.gogo}/reviews?language=en-US&page=1&api_key=647298ce680820a1028160f696426edd`);
-        const reviewsData = await reviewsResponse.json();
-        setReviews(reviewsData);
+        //         const reviewsResponse = await fetch(`https://api.themoviedb.org/3/movie/${props.gogo}/reviews?language=en-US&page=1&api_key=647298ce680820a1028160f696426edd`);
+        // const reviewsData = await reviewsResponse.json();
+        // setReviews(reviewsData);
               } catch (error) {
                 console.error(error);
               }
