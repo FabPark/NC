@@ -7,7 +7,7 @@ import Modal from 'react-bootstrap/Modal';
 
 const PopUp = props => {
     const [movieData, setMovieData] = useState(null);
-    const [reviews, setReviews] = useState(null);
+    // const [reviews, setReviews] = useState(null);
     var imgUrl = "https://image.tmdb.org/t/p/w780";
 
     // const imageStyle = {
