@@ -1,3 +1,4 @@
+```javascript
 # Project Name
 
 Netflix_copy 
@@ -49,3 +50,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - The project is inspired by Netflix and aims to provide a similar user experience.
 
 Feel free to modify this template to add more details or customize it according to your project requirements.
+```
