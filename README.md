@@ -1,13 +1,15 @@
 ```javascript
-# Project Name
+Project Name
 
-Netflix_copy 
+NC
 
-## Description
+Description
 
-This project is a web application that resembles Netflix, providing users with details about the latest trending movies and reviews. It is built using JavaScript, CSS, HTML, React.js, Bootstrap, and React Router DOM.
+NC is a web application that resembles Netflix, providing users with details about the latest trending movies and reviews.
+It is built using JavaScript, CSS, HTML, React.js, Bootstrap, and React Router DOM.
+Check it out! https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/
 
-## Features
+Features
 
 - Displays a collection of trending movies
 - Provides movie details such as title, synopsis, cast, and release date
@@ -15,7 +17,7 @@ This project is a web application that resembles Netflix, providing users with d
 - Implements a responsive and user-friendly interface
 - Supports navigation through different movie categories using React Router DOM
 
-## Technologies Used
+Technologies Used
 
 - JavaScript
 - CSS
@@ -24,27 +26,23 @@ This project is a web application that resembles Netflix, providing users with d
 - Bootstrap
 - React Router DOM
 
-## Installation
+Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/netflix_copy-website.git`
 2. Navigate to the project directory: `cd netflix_copy-website`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
-## Usage
+Usage
 
 - Open your browser and visit `http://localhost:3000` to access the application.
 - Browse through the trending movies, click on a movie to view its details, and read or write reviews.
 
-## Contributing
+Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Acknowledgements
+Acknowledgements
 
 - The movie data and details are fetched from a movie API (The Movie Database ).
 - The project is inspired by Netflix and aims to provide a similar user experience.
