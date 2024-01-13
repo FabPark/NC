@@ -7,7 +7,7 @@ Description
 
 NC is a web application that resembles Netflix, providing users with details about the latest trending movies and reviews.
 It is built using JavaScript, CSS, HTML, React.js, Bootstrap, and React Router DOM.
-Check it out: https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/
+Check it out: [https://659f893c51c19c00098772cb--teal-starlight-5a49a5.netlify.app/#/](https://65a2209f6ab4c90008edde6f--teal-starlight-5a49a5.netlify.app/#/)
 
 Features
 
