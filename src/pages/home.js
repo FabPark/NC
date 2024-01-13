@@ -2,37 +2,53 @@ import React from "react";
 import logo from "../logo.jpeg";
 
 function Home() {
-  const backgroundStyle = {
+  const containerStyle = {
+    position: "relative",
+    minHeight: "100vh",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "flex-end",
+  };
+
+  const imageStyle = {
     backgroundImage: `url(${logo})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    minHeight: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "flex-end",
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    top: 0,
+    left: 0,
+  };
+
+  const overlayStyle = {
+    content: "",
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
   };
 
   const textStyle = {
     fontSize: "2em",
     color: "#fff",
     textAlign: "center",
-    margin: "200px",
-    backgroundColor: "black",
+    margin: "400px",
+    position: "relative", 
+    zIndex: 1, 
   };
 
   return (
-    <div style={backgroundStyle}>
+    <div style={containerStyle}>
+      <div style={imageStyle}></div>
+      <div style={overlayStyle}></div>
       <div className="home-content">
         <p style={textStyle}>
-          Welcome to NC your ultimate destination for the latest and greatest in
-          movies and TV shows! Immerse yourself in a world of entertainment
-          where you can discover the hottest releases, catch up on your favorite
-          series, and stay up-to-date with the most talked-about films. Explore
-          our curated collection, featuring a diverse range of genres, from
-          thrilling blockbusters to gripping dramas. Join us on a cinematic
-          journey where every click brings you closer to the latest in
-          entertainment. Your ticket to the world of entertainment starts here!
+         Latest Movies and more!
         </p>
       </div>
     </div>
@@ -40,3 +56,4 @@ function Home() {
 }
 
 export default Home;
+
